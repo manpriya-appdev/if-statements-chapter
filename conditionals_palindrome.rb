@@ -16,3 +16,8 @@
 # true
 
 p "Enter one word"
+w = gets.chomp
+w_reverse = w.reverse
+if (w.upcase == w_reverse.upcase)
+  p "true"
+else p "false" end
